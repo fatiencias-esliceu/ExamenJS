@@ -15,7 +15,7 @@ function factorial() {
     _id("operacionsFactorial").innerHTML = operaciones;
 }
 
-function calculaIVA() {
+function calculaIVA() 
     var preuAmbIVA = _id("entradaFactorial").value;
     var tipusIVA = 1;
     var preusenseIva = "";
@@ -25,7 +25,7 @@ function calculaIVA() {
     preusenseIva = preuAmbIVA * 0,tipusIVA
     IVA = 
 
-}
+
 function canviaFons(tipus) {
     var colorfondo;
     var colortexto;
